@@ -71,7 +71,7 @@ public class SplashActivity extends AppCompatActivity implements View.OnClickLis
             public void onPageSelected(int position) {
                 switch (position) {
                     case 0:
-                        iv_splash_first.setBackgroundResource(R.drawable.shape2);
+                        iv_splash_first.setBackgroundResource(R.drawable.shape3);
                         iv_splash_second.setBackgroundResource(R.drawable.shape1);
                         iv_splash_third.setBackgroundResource(R.drawable.shape1);
                         break;
@@ -79,7 +79,7 @@ public class SplashActivity extends AppCompatActivity implements View.OnClickLis
                         ll_splash_container.setVisibility(View.VISIBLE);
                         btn_join.setVisibility(View.GONE);
                         iv_splash_first.setBackgroundResource(R.drawable.shape1);
-                        iv_splash_second.setBackgroundResource(R.drawable.shape2);
+                        iv_splash_second.setBackgroundResource(R.drawable.shape3);
                         iv_splash_third.setBackgroundResource(R.drawable.shape1);
                         break;
                     case 2:
