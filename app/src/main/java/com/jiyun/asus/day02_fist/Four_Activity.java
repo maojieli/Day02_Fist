@@ -47,7 +47,7 @@ public class Four_Activity extends AppCompatActivity implements View.OnClickList
         tb.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //关闭
+
                 finish();
             }
         });
