@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="250dp">
+<com.recker.flybanner.FlyBanner
+    android:id="@+id/fb"
+    android:layout_weight="2"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"></com.recker.flybanner.FlyBanner>
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:src="@mipmap/u112"
+            android:id="@+id/iv_image_one"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@mipmap/u114"
+            android:id="@+id/iv_image_two"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@mipmap/u116"
+            android:id="@+id/iv_image_three"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:src="@mipmap/u118"
+            android:id="@+id/iv_image_four"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
