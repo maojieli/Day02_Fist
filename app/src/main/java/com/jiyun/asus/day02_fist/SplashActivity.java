@@ -45,11 +45,8 @@ public class SplashActivity extends AppCompatActivity implements View.OnClickLis
     private void initView() {
         vp_container = (ViewPager) findViewById(R.id.vp_container);
         iv_splash_first = (ImageView) findViewById(R.id.iv_splash_first);
-        iv_splash_first.setOnClickListener(this);
         iv_splash_second = (ImageView) findViewById(R.id.iv_splash_second);
-        iv_splash_second.setOnClickListener(this);
         iv_splash_third = (ImageView) findViewById(R.id.iv_splash_third);
-        iv_splash_third.setOnClickListener(this);
         ll_splash_container = (LinearLayout) findViewById(R.id.ll_splash_container);
         ll_splash_container.setOnClickListener(this);
         btn_join = (Button) findViewById(R.id.btn_join);
