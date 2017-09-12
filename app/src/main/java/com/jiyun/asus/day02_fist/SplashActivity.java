@@ -30,13 +30,14 @@ public class SplashActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         sharedPreferences = getSharedPreferences("count", MODE_WORLD_READABLE);
         int count = sharedPreferences.getInt("count", 0);
         if (count==0){
             initView();
         }else {
             startActivity(new Intent(SplashActivity.this,Two_Activity.class));
-
+            finish();
         }
 
         initView();
@@ -106,6 +107,7 @@ public class SplashActivity extends AppCompatActivity implements View.OnClickLis
                 edit.putInt("count",1);
                 edit.commit();
                 startActivity(new Intent(SplashActivity.this,Two_Activity.class));
+                finish();
                 break;
         }
     }
