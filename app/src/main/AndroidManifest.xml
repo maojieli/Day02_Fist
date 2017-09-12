@@ -21,8 +21,13 @@
         <activity android:name=".Two_Activity" />
         <activity android:name=".Three_Activity" />
         <activity android:name=".Four_Activity" />
+
+
+        <activity android:name=".YanActivity"></activity>
+
         <activity android:name=".HomePage_Activity" />
         <activity android:name=".Contents_Activity"></activity>
+
     </application>
 
 </manifest>
