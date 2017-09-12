@@ -1,4 +1,4 @@
-package com.jiyun.asus.day02_fist.adapters;
+package com.jiyun.asus.day02_fist.adapter;
 
 import android.support.v4.view.PagerAdapter;
 import android.view.View;

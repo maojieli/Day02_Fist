@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.jiyun.asus.day02_fist.adapters.ViewPagerAdapter;
+import com.jiyun.asus.day02_fist.adapter.ViewPagerAdapter;
 
 import java.util.ArrayList;
 
