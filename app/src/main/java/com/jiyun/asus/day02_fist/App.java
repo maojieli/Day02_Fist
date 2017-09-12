@@ -7,7 +7,7 @@ import com.umeng.socialize.Config;
 import com.umeng.socialize.PlatformConfig;
 import com.umeng.socialize.UMShareAPI;
 
-//112233
+//1122334
 public class App extends Application {
     {
 
