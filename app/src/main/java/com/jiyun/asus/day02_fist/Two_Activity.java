@@ -91,7 +91,7 @@ public class Two_Activity extends AppCompatActivity implements View.OnClickListe
                     Intent intent = new Intent(Two_Activity.this,MainActivity.class);
                     startActivity(intent);
                 }else {
-                    Toast.makeText(this, "登陆失败00", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "登陆失败000", Toast.LENGTH_SHORT).show();
                 }
                 break;
         }
