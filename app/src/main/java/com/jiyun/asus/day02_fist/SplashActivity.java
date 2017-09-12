@@ -106,6 +106,7 @@ public class SplashActivity extends AppCompatActivity implements View.OnClickLis
                 SharedPreferences.Editor edit = sharedPreferences.edit();
                 edit.putInt("count",1);
                 edit.commit();
+
                 startActivity(new Intent(SplashActivity.this,Two_Activity.class));
                 finish();
                 break;
