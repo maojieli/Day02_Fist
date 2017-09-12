@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jiyun.asus.day02_fist">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,8 @@
         <activity android:name=".Two_Activity" />
         <activity android:name=".Three_Activity" />
         <activity android:name=".Four_Activity" />
-        <activity android:name=".Five_Activity"></activity>
+        <activity android:name=".HomePage_Activity" />
+        <activity android:name=".Contents_Activity"></activity>
     </application>
 
 </manifest>
