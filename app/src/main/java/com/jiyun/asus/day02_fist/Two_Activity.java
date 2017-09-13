@@ -50,7 +50,8 @@ public class Two_Activity extends AppCompatActivity implements View.OnClickListe
 
                     @Override
                     public void onComplete(SHARE_MEDIA share_media, int i, Map<String, String> map) {
-
+                        Intent intent = new Intent(Two_Activity.this,HomePage_Activity.class);
+                        startActivity(intent);
                     }
 
                     @Override
@@ -79,6 +80,8 @@ public class Two_Activity extends AppCompatActivity implements View.OnClickListe
         zhuce = (TextView) findViewById(R.id.zhuce);
 
         denglu.setOnClickListener(this);
+        zhaopaswold.setOnClickListener(this);
+        zhuce.setOnClickListener(this);
     }
 
     @Override
@@ -88,11 +91,17 @@ public class Two_Activity extends AppCompatActivity implements View.OnClickListe
                 submit();
                 boolean mobile = g.isMobile(nameString);
                 if (mobile == true) {
-                    Intent intent = new Intent(Two_Activity.this,MainActivity.class);
+                    Intent intent = new Intent(Two_Activity.this,HomePage_Activity.class);
                     startActivity(intent);
                 }else {
                     Toast.makeText(this, "输入的手机号不符合要求", Toast.LENGTH_SHORT).show();
                 }
+                break;
+            case  R.id.zhuce:
+                startActivity(new Intent(Two_Activity.this,Three_Activity.class));
+                break;
+            case R.id.zhaopaswold:
+                startActivity(new Intent(Two_Activity.this,Four_Activity.class));
                 break;
         }
     }

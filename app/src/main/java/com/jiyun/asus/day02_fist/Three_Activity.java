@@ -58,18 +58,18 @@ public class Three_Activity extends AppCompatActivity implements View.OnClickLis
                 }
 
 
-               if (isMobileNO(phone)&&isRightPwd(password)){
+               if (isMobileNO(phone)){
                    startActivity(new Intent(Three_Activity.this,YanActivity.class));
                }
                 break;
         }
     }
-    //�验证密码����ȷ����
-    public static final boolean isRightPwd(String pwd) {
-        Pattern p = Pattern.compile("^(?![^a-zA-Z]+$)(?!\\D+$)[0-9a-zA-Z]{8,16}$");
-        Matcher m = p.matcher(pwd);
-        return m.matches();
-    }
+//    //�验证密码����ȷ����
+//    public static final boolean isRightPwd(String pwd) {
+//        Pattern p = Pattern.compile("^(?![^a-zA-Z]+$)(?!\\D+$)[0-9a-zA-Z]{8,16}$");
+//        Matcher m = p.matcher(pwd);
+//        return m.matches();
+//    }
 
     //�验证手机号是否正确ֻ��
     public static boolean isMobileNO(String mobiles) {
